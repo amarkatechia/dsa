@@ -3,6 +3,17 @@ Singly linked list methods.
 Assumes the class has: head, tail, length, and Node(value) with .value and .next
 '''
 
+class Node:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+
+'''CONSTRUCTOR'''
+def __init__(self):
+    self.head = None
+    self.tail = None
+    self.length = 1 #initialize with a node
+
 '''PRINT LIST'''
 def print_list(self) :
     # Start at the first node and walk until we run out of nodes
